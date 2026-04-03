@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documents - AdminSimplify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">AdminSimplify</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="facture.html">Factures</a></li>
+            <li><a href="documents.html" class="active">Documents</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="dashboard">
+
+    <h1>Documents importants</h1>
+
+    
+    <form class="form-document">
+        <label>Nom du document</label>
+        <input type="text" placeholder="Nom du document" required>
+
+        <label>Fichier</label>
+        <input type="file" required>
+
+        <button type="submit">Ajouter le document</button>
+    </form>
+
+    
+    <h2>Documents existants</h2>
+
+    <table>
+        <tr>
+            <th>Nom</th>
+            <th>Type</th>
+            <th>Date</th>
+            <th>Actions</th>
+        </tr>
+        <tr>
+            <td>Contrat Client X</td>
+            <td>PDF</td>
+            <td>01/04/2026</td>
+            <td><a href="#">Télécharger</a></td>
+        </tr>
+        <tr>
+            <td>Rapport Mensuel</td>
+            <td>DOCX</td>
+            <td>28/03/2026</td>
+            <td><a href="#">Télécharger</a></td>
+        </tr>
+    </table>
+
+</section>
+
+<footer>
+    <p>© 2026 AdminSimplify Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
