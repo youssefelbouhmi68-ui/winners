@@ -146,3 +146,62 @@ footer {
         align-items: center;
     }
 }
+.dashboard {
+    padding: 120px 40px 40px;
+}
+
+.dashboard h1 {
+    margin-bottom: 30px;
+}
+
+
+table {
+    width: 100%;
+    background: white;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+
+.tasks {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.form-facture {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+}
+
+.form-facture label {
+    display: block;
+    margin-top: 10px;
+}
+
+.form-facture input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-facture button {
+    margin-top: 15px;
+    padding: 12px;
+    background: #0a3d62;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

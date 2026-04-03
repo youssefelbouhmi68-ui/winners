@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Factures - AdminSimplify</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">AdminSimplify</div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="facture.html">Factures</a></li>
+            <li><a href="documents.html">Documents</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="dashboard">
+
+    <h1>Créer une facture</h1>
+
+    <form class="form-facture">
+
+        <label>Nom du client</label>
+        <input type="text" placeholder="Entreprise X">
+
+        <label>Montant (€)</label>
+        <input type="number" placeholder="500">
+
+        <label>Date</label>
+        <input type="date">
+
+        <button type="submit">Générer la facture</button>
+
+    </form>
+
+    <h2>Factures existantes</h2>
+
+    <table>
+        <tr>
+            <th>Client</th>
+            <th>Montant</th>
+            <th>Date</th>
+        </tr>
+        <tr>
+            <td>Entreprise X</td>
+            <td>500€</td>
+            <td>01/04/2026</td>
+        </tr>
+    </table>
+
+</section>
+
+<footer>
+    <p>© 2026 AdminSimplify Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
